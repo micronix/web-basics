@@ -2,18 +2,26 @@
   <head>
     <style>
       .item {
+        width: 100px;
         height: 100px;
       }
       .red { background-color: red; }
       .blue { background-color: blue; }
       .green { background-color: green; }
       .purple { background-color: purple; }
+      .float-right {
+        float: right;
+      }
+      .clear {
+        clear: both;
+      }
     </style>
   </head>
   <body>
     <div class="item red"></div>
-    <div class="item blue"></div>
-    <div class="item green"></div>
+    <div class="item blue float-right"></div>
+    <div class="item red float-right"></div>
+    <div class="item green clear"></div>
     <div class="item purple"></div>
     <div class="item red"></div>
   </body>

@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <style>
+      .red { background-color: red; }
+      .blue { background-color: blue; }
+      .green { background-color: green; }
+      .purple { background-color: purple; }
+      .container {
+        width: 100px;
+        height: 100px;
+      }
+      .child-1 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+      }
+      .child-2 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 50px;
+      }
+      .top {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top purple"></div>
+    <div class="container red">
+      <div class="child-1 blue">blue</div>
+      <div class="child-2 green">green</div>
+    </div>
+  </body>
+</html>
